@@ -17,11 +17,12 @@
 ## Documentation
 _Your README.md must include:_
 ```md
-# Project Name
-**Author**: Your Name Goes Here
+#Into to SQL-postgres
+**Author**: Tama Rushin
 **Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
+<!-- The first thing we did was a npm init -y inside of the starter code folder. This creates a package.json with meta data about my project. Next we did a (npm i -S), this saves all of the project's dependencies to the package.json. Next we created a gitignore at the root of the repo itself so node and environment modules dont get uploaded to github. Next we created a new branch and duplicated the start-code in a new folder, then we did a git init and a initial commit up to our github repo.
+From Here a user needs to npm i -S pg (postgres) and require it in the server.js, then create a connection string and update the client constant. Then remove the line of code exporting the json. -->
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
 ## Architecture
@@ -30,5 +31,5 @@ _Your README.md must include:_
 <!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
 01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
 ## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+<!-- Jay Adams. -->
 -->
